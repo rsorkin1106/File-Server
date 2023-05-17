@@ -1,2 +1,2 @@
-# File-System
-Multi-threaded file system
+# File-Server
+Multi-threaded file server
