@@ -164,3 +164,16 @@ Read the list of usernames and passwords from stdin.
 Initialize the list of free disk blocks by reading the relevant data from the existing file system. Your
 file server should be able to start with any valid file system (an empty file system as well as file
 systems containing files).
+  
+
+As per the makefile:
+  
+To compile a file server, run:
+  `make all`
+  
+To remove the compiled server version:
+  `make clean`
+  
+To compile tests:
+  `make test%`
+  where `%` is the suffix of the test file that starts with 'test'
